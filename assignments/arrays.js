@@ -116,4 +116,5 @@ for ( b = 0; b < inventory.length; b++){
     }
 }
 
-console.log(BMWAndAudi);
+let myBMWAndAudi = JSON.stringify(BMWAndAudi);
+console.log(myBMWAndAudi);
